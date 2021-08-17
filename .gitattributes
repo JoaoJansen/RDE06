@@ -1,2 +1,56 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula sobre Software de versionamento</title>
+</head>
+<body>
+
+    <h1>O QUE É SOFTWARE DE VERSIONAMENTO</h1>
+
+    <p>Sistema que tem por objetivo realizar o controle de versões de um código ou documento.<br>É possível gerenciar as versões de um  código ou documento realizadas por um desenvolvedor ou equipe de desenvolvedores.</br> </p>
+    
+    <br></br><h2>Tipos de Software de controle de versões</h2>
+
+    <dl>
+        <dt>Centralizado</dt>
+        <dd>Possui um repositório central em um servidorcom controles de versões - Dependente do servidor - <br>Software Subversion.</dd>
+
+        <dt>Distribuído</dt>
+        <dd>Possui um repositório local com controles de versões. <br>Atualizações no reposítório central - Independe do servidor. <br>Softwares Mercurial, Git.</br></dd>
+        
+    </dl>
+     
+
+    <br></br><h3>AMBIENTE</h3>
+    <p>Os elementos utilizados são:</p>
+    <ol>
+
+        <li>GIT</li>
+        <p><figure><img src="img/git.png" alt=""></figure></p>
+        <li>GitHub</li>
+        <p><figure><img src="img/github.jpg" alt=""></figure></p>
+        <li>GitHub - Desktop</li>
+        <p><figure><img src="img/github desktop.png" alt=""></figure></p>
+        <li>Visual Studio Code</li>
+        <p><figure><img src="img/vsimg.jpg" alt=""></figure></p>
+        
+    </ol>
+
+    <br></br><h3>COMANDOS GIT</h3>
+    <dl>
+        <dt>COMMIT</dt>
+        <dd>O commit torna permanente um conjunto de alterações em um repositório.</dd>
+        <dt>PUSH</dt>
+        <dd>Envia alterações para o servidor no repositório remoto.</dd>
+        <dt>FETCH</dt>
+        <dd>Verifica se o seu repositório local está em sincronia com o remoto.</dd>
+        <dt>PULL</dt>
+        <dd>Sincroniza o repositório local com o remoto atualizando as versões.</dd>
+    </dl>
+
+    <br>Obs: Ao publicar um código, temos a opção de deixar ele público ou privado, Em caso de um código público, possuimos a </br>
+</body>
+</html>
